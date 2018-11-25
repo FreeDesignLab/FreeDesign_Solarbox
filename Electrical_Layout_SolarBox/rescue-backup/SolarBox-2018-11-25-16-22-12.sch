@@ -1,0 +1,371 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FreeDesignBox_KidCad_Lib
+LIBS:SolarBox-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Solar_Cells SC?
+U 1 1 5BEEB7E9
+P 1400 1500
+F 0 "SC?" H 1500 1600 50  0000 L CNN
+F 1 "Solar_Cells" H 1500 1500 50  0000 L CNN
+F 2 "" V 1400 1560 50  0001 C CNN
+F 3 "" V 1400 1560 50  0001 C CNN
+	1    1400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 5BEEB862
+P 4750 1750
+F 0 "F?" V 4830 1750 50  0000 C CNN
+F 1 "Fuse" V 4675 1750 50  0000 C CNN
+F 2 "" V 4680 1750 50  0001 C CNN
+F 3 "" H 4750 1750 50  0001 C CNN
+	1    4750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5BEEB8CD
+P 4200 3650
+F 0 "J?" H 4200 3950 50  0000 C CNN
+F 1 "Domino+" H 4200 3350 50  0000 C CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_DPST_x2 SW?
+U 1 1 5BEEBABD
+P 4750 2100
+F 0 "SW?" H 4750 2225 50  0000 C CNN
+F 1 "SW_DPST_x2" H 4750 2000 50  0000 C CNN
+F 2 "" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01_Female J?
+U 1 1 5BEEBB94
+P 1800 1100
+F 0 "J?" H 1700 1050 50  0000 C CNN
+F 1 "MC4_female_+" H 1650 1300 50  0000 C CNN
+F 2 "" H 1800 1100 50  0001 C CNN
+F 3 "" H 1800 1100 50  0001 C CNN
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01_Female J?
+U 1 1 5BEEBC5B
+P 1850 1950
+F 0 "J?" H 1750 2000 50  0000 C CNN
+F 1 "MC4_female_-" H 1650 1750 50  0000 C CNN
+F 2 "" H 1850 1950 50  0001 C CNN
+F 3 "" H 1850 1950 50  0001 C CNN
+	1    1850 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01_Male J?
+U 1 1 5BEEBCC1
+P 1800 1100
+F 0 "J?" H 1900 1050 50  0000 C CNN
+F 1 "MC4_male_+" H 2050 1200 50  0000 C CNN
+F 2 "" H 1800 1100 50  0001 C CNN
+F 3 "" H 1800 1100 50  0001 C CNN
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01_Male J?
+U 1 1 5BEEBD48
+P 1850 1950
+F 0 "J?" H 1900 2000 50  0000 C CNN
+F 1 "MC4_male_-" H 2000 1850 50  0000 C CNN
+F 2 "" H 1850 1950 50  0001 C CNN
+F 3 "" H 1850 1950 50  0001 C CNN
+	1    1850 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5BEEC337
+P 9300 3750
+F 0 "D?" H 9300 3850 50  0000 C CNN
+F 1 "LED_ALT" H 9300 3650 50  0000 C CNN
+F 2 "" H 9300 3750 50  0001 C CNN
+F 3 "" H 9300 3750 50  0001 C CNN
+	1    9300 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5BEEC3D8
+P 9300 4150
+F 0 "D?" H 9300 4250 50  0000 C CNN
+F 1 "LED_ALT" H 9300 4050 50  0000 C CNN
+F 2 "" H 9300 4150 50  0001 C CNN
+F 3 "" H 9300 4150 50  0001 C CNN
+	1    9300 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5BEEC419
+P 9300 4550
+F 0 "D?" H 9300 4650 50  0000 C CNN
+F 1 "LED_ALT" H 9300 4450 50  0000 C CNN
+F 2 "" H 9300 4550 50  0001 C CNN
+F 3 "" H 9300 4550 50  0001 C CNN
+	1    9300 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Battery BT?
+U 1 1 5BEEC50C
+P 4150 2950
+F 0 "BT?" V 4000 2900 50  0000 L CNN
+F 1 "Battery" V 4300 2850 50  0000 L CNN
+F 2 "" V 4150 3010 50  0001 C CNN
+F 3 "" V 4150 3010 50  0001 C CNN
+	1    4150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CloudSolarcharger SC?
+U 1 1 5BEEC7BF
+P 5800 1600
+F 0 "SC?" H 5800 1050 60  0000 C CNN
+F 1 "CloudSolarcharger" H 5800 2300 60  0000 C CNN
+F 2 "" H 5850 2750 60  0001 C CNN
+F 3 "" H 5850 2750 60  0001 C CNN
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inverter-70W Inv?
+U 1 1 5BEEC374
+P 5700 2850
+F 0 "Inv?" H 5800 2450 60  0000 C CNN
+F 1 "Inverter-70W" H 5800 3100 60  0000 C CNN
+F 2 "" H 5800 3350 60  0001 C CNN
+F 3 "" H 5800 3350 60  0001 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1700 1400 1950
+Wire Wire Line
+	2050 1950 2350 1950
+Wire Wire Line
+	2350 1950 2350 1200
+Wire Wire Line
+	2350 1200 5150 1200
+Wire Wire Line
+	2000 1100 5150 1100
+Wire Wire Line
+	3950 2950 3950 1300
+Wire Wire Line
+	3950 1300 5150 1300
+Wire Wire Line
+	4350 1400 4350 2950
+Wire Wire Line
+	4350 1400 5150 1400
+Wire Wire Line
+	1400 1300 1400 1100
+Wire Wire Line
+	1400 1100 1600 1100
+Wire Wire Line
+	1400 1950 1650 1950
+Wire Wire Line
+	5150 1500 4500 1500
+Wire Wire Line
+	5150 1600 4750 1600
+Wire Wire Line
+	4750 2300 4750 3450
+Wire Wire Line
+	4750 3450 4400 3450
+$Comp
+L Conn_01x05 J?
+U 1 1 5BEF3D1C
+P 4200 6150
+F 0 "J?" H 4200 6450 50  0000 C CNN
+F 1 "Domino-" H 4200 5850 50  0000 C CNN
+F 2 "" H 4200 6150 50  0001 C CNN
+F 3 "" H 4200 6150 50  0001 C CNN
+	1    4200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5BEF3D7E
+P 4200 4300
+F 0 "J?" H 4200 4600 50  0000 C CNN
+F 1 "Domino+" H 4200 4000 50  0000 C CNN
+F 2 "" H 4200 4300 50  0001 C CNN
+F 3 "" H 4200 4300 50  0001 C CNN
+	1    4200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5BEEB96F
+P 4200 5400
+F 0 "J?" H 4200 5700 50  0000 C CNN
+F 1 "Domino-" H 4200 5100 50  0000 C CNN
+F 2 "" H 4200 5400 50  0001 C CNN
+F 3 "" H 4200 5400 50  0001 C CNN
+	1    4200 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5BEF4390
+P 9300 4950
+F 0 "D?" H 9300 5050 50  0000 C CNN
+F 1 "LED_ALT" H 9300 4850 50  0000 C CNN
+F 2 "" H 9300 4950 50  0001 C CNN
+F 3 "" H 9300 4950 50  0001 C CNN
+	1    9300 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED_ALT D?
+U 1 1 5BEF43E6
+P 9300 5350
+F 0 "D?" H 9300 5450 50  0000 C CNN
+F 1 "LED_ALT" H 9300 5250 50  0000 C CNN
+F 2 "" H 9300 5350 50  0001 C CNN
+F 3 "" H 9300 5350 50  0001 C CNN
+	1    9300 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 3650 4850 3650
+Wire Wire Line
+	4850 3650 4850 2750
+Wire Wire Line
+	4850 2750 5150 2750
+Wire Wire Line
+	4900 2850 5150 2850
+Wire Wire Line
+	4400 3750 9150 3750
+Wire Wire Line
+	4400 3850 9150 3850
+Wire Wire Line
+	9150 3850 9150 4150
+Wire Wire Line
+	4400 4200 9150 4200
+Wire Wire Line
+	9150 4200 9150 4550
+Wire Wire Line
+	4400 4300 9100 4300
+Wire Wire Line
+	9100 4300 9100 4950
+Wire Wire Line
+	9100 4950 9150 4950
+Wire Wire Line
+	4400 4400 9050 4400
+Wire Wire Line
+	9050 4400 9050 5350
+Wire Wire Line
+	9050 5350 9150 5350
+Wire Wire Line
+	9450 3750 9600 3750
+Wire Wire Line
+	9450 4150 9700 4150
+Wire Wire Line
+	9450 4550 9800 4550
+Wire Wire Line
+	9800 4550 9800 6050
+Wire Wire Line
+	4400 3550 4450 3550
+Wire Wire Line
+	4450 3550 4450 4100
+Wire Wire Line
+	4450 4100 4400 4100
+Wire Wire Line
+	4500 1500 4500 5200
+Wire Wire Line
+	4500 5200 4400 5200
+Wire Wire Line
+	4400 5300 4450 5300
+Wire Wire Line
+	4450 5300 4450 5950
+Wire Wire Line
+	4450 5950 4400 5950
+Wire Wire Line
+	9450 4950 9900 4950
+Wire Wire Line
+	9900 4950 9900 6150
+Wire Wire Line
+	4900 2850 4900 5400
+Wire Wire Line
+	4900 5400 4400 5400
+Wire Wire Line
+	4400 5500 9600 5500
+Wire Wire Line
+	9600 5500 9600 3750
+Wire Wire Line
+	4400 5600 9700 5600
+Wire Wire Line
+	9700 5600 9700 4150
+Wire Wire Line
+	9800 6050 4400 6050
+Wire Wire Line
+	9900 6150 4400 6150
+Wire Wire Line
+	4400 6250 10000 6250
+Wire Wire Line
+	10000 6250 10000 5350
+Wire Wire Line
+	10000 5350 9450 5350
+$EndSCHEMATC
